@@ -14,6 +14,20 @@
 		9A417AE428C9BA79004284B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A417AD228C9BA79004284B5 /* Assets.xcassets */; };
 		9A417AE528C9BA79004284B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A417AD228C9BA79004284B5 /* Assets.xcassets */; };
 		9A417AEF28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A417AEE28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework */; };
+		9AD6E4DF28CA34F7004CFE6D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */; };
+		9AD6E4E128CA360C004CFE6D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E028CA360C004CFE6D /* ControlsView.swift */; };
+		9AD6E4E228CA360C004CFE6D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E028CA360C004CFE6D /* ControlsView.swift */; };
+		9AD6E4E328CA3615004CFE6D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */; };
+		9AD6E4E528CA3640004CFE6D /* ThreeLibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E428CA3640004CFE6D /* ThreeLibView.swift */; };
+		9AD6E4E628CA3640004CFE6D /* ThreeLibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E428CA3640004CFE6D /* ThreeLibView.swift */; };
+		9AD6E4E828CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E728CA3656004CFE6D /* SwiftSyntaxView.swift */; };
+		9AD6E4E928CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E728CA3656004CFE6D /* SwiftSyntaxView.swift */; };
+		9AD6E4EC28CA36A8004CFE6D /* QandAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EB28CA36A8004CFE6D /* QandAView.swift */; };
+		9AD6E4ED28CA36A8004CFE6D /* QandAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EB28CA36A8004CFE6D /* QandAView.swift */; };
+		9AD6E4EF28CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
+		9AD6E4F028CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
+		9AD6E4F228CA42BC004CFE6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4F128CA42BC004CFE6D /* WebView.swift */; };
+		9AD6E4F328CA42BC004CFE6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4F128CA42BC004CFE6D /* WebView.swift */; };
 		B2F63D299BB34955D936EA93 /* Pods_SwiftUISamples__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBD551036EF6F8005FFA03 /* Pods_SwiftUISamples__iOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +45,13 @@
 		9A417ADF28C9BA79004284B5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9A417AEE28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftUISamples__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A417AF228C9C654004284B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9AD6E4E028CA360C004CFE6D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		9AD6E4E428CA3640004CFE6D /* ThreeLibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLibView.swift; sourceTree = "<group>"; };
+		9AD6E4E728CA3656004CFE6D /* SwiftSyntaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSyntaxView.swift; sourceTree = "<group>"; };
+		9AD6E4EB28CA36A8004CFE6D /* QandAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QandAView.swift; sourceTree = "<group>"; };
+		9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInCell.swift; sourceTree = "<group>"; };
+		9AD6E4F128CA42BC004CFE6D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		DC0A10D4502C4A60D68EEE8F /* Pods_SwiftUISamples__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUISamples__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +89,10 @@
 		9A417ACF28C9BA76004284B5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9AD6E4DB28CA344F004CFE6D /* Controls */,
+				9AD6E4DA28CA33C2004CFE6D /* 3rd */,
+				9AD6E4DC28CA3491004CFE6D /* SwiftSyntax */,
+				9AD6E4DD28CA34BF004CFE6D /* QandA */,
 				9A417AD028C9BA76004284B5 /* SwiftUISamplesApp.swift */,
 				9A417AD128C9BA76004284B5 /* ContentView.swift */,
 				9A417AD228C9BA79004284B5 /* Assets.xcassets */,
@@ -90,6 +115,49 @@
 				9A417ADF28C9BA79004284B5 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9AD6E4DA28CA33C2004CFE6D /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4E428CA3640004CFE6D /* ThreeLibView.swift */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		9AD6E4DB28CA344F004CFE6D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */,
+				9AD6E4E028CA360C004CFE6D /* ControlsView.swift */,
+				9AD6E4F128CA42BC004CFE6D /* WebView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		9AD6E4DC28CA3491004CFE6D /* SwiftSyntax */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4E728CA3656004CFE6D /* SwiftSyntaxView.swift */,
+			);
+			path = SwiftSyntax;
+			sourceTree = "<group>";
+		};
+		9AD6E4DD28CA34BF004CFE6D /* QandA */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4EB28CA36A8004CFE6D /* QandAView.swift */,
+				9AD6E4EA28CA365B004CFE6D /* ControlsQ */,
+			);
+			path = QandA;
+			sourceTree = "<group>";
+		};
+		9AD6E4EA28CA365B004CFE6D /* ControlsQ */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */,
+			);
+			path = ControlsQ;
 			sourceTree = "<group>";
 		};
 		A0620C641818EE89A4638E38 /* Frameworks */ = {
@@ -297,7 +365,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD6E4EF28CA3AA1004CFE6D /* ButtonInCell.swift in Sources */,
+				9AD6E4E128CA360C004CFE6D /* ControlsView.swift in Sources */,
+				9AD6E4E828CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */,
 				9A417AE228C9BA79004284B5 /* ContentView.swift in Sources */,
+				9AD6E4E528CA3640004CFE6D /* ThreeLibView.swift in Sources */,
+				9AD6E4EC28CA36A8004CFE6D /* QandAView.swift in Sources */,
+				9AD6E4F228CA42BC004CFE6D /* WebView.swift in Sources */,
+				9AD6E4DF28CA34F7004CFE6D /* TabBarView.swift in Sources */,
 				9A417AE028C9BA79004284B5 /* SwiftUISamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +381,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD6E4F028CA3AA1004CFE6D /* ButtonInCell.swift in Sources */,
 				9A417AE328C9BA79004284B5 /* ContentView.swift in Sources */,
+				9AD6E4E928CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */,
+				9AD6E4E228CA360C004CFE6D /* ControlsView.swift in Sources */,
+				9AD6E4E628CA3640004CFE6D /* ThreeLibView.swift in Sources */,
+				9AD6E4ED28CA36A8004CFE6D /* QandAView.swift in Sources */,
+				9AD6E4F328CA42BC004CFE6D /* WebView.swift in Sources */,
+				9AD6E4E328CA3615004CFE6D /* TabBarView.swift in Sources */,
 				9A417AE128C9BA79004284B5 /* SwiftUISamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
