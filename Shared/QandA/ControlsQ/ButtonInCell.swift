@@ -4,6 +4,11 @@
 //
 //  Created by wangmeng on 2022/9/8.
 //
+// 作用：调整List 中 Button 响应范围大小
+//
+// 代码作者：xxxixxxx
+// 来源：https://www.jianshu.com/p/4c940917799b
+// 作者博客地址: https://xxxixxxx.github.io
 
 import SwiftUI
 
@@ -42,6 +47,7 @@ struct ButtonInCell: View {
             }
             
             Section {
+                
                 NavigationLink(destination:WebView(url: URL(string:"https://www.jianshu.com/p/4c940917799b"))){
                     VStack {
                         Text("代码作者：xxxixxxx")

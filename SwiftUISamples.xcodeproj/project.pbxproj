@@ -14,6 +14,7 @@
 		9A417AE428C9BA79004284B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A417AD228C9BA79004284B5 /* Assets.xcassets */; };
 		9A417AE528C9BA79004284B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A417AD228C9BA79004284B5 /* Assets.xcassets */; };
 		9A417AEF28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A417AEE28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework */; };
+		9AA9B2C428CF2E5D009C5FC7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9B2C328CF2E5D009C5FC7 /* WebView.swift */; };
 		9AD6E4DF28CA34F7004CFE6D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */; };
 		9AD6E4E128CA360C004CFE6D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E028CA360C004CFE6D /* ControlsView.swift */; };
 		9AD6E4E228CA360C004CFE6D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4E028CA360C004CFE6D /* ControlsView.swift */; };
@@ -27,7 +28,6 @@
 		9AD6E4EF28CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
 		9AD6E4F028CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
 		9AD6E4F228CA42BC004CFE6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4F128CA42BC004CFE6D /* WebView.swift */; };
-		9AD6E4F328CA42BC004CFE6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4F128CA42BC004CFE6D /* WebView.swift */; };
 		B2F63D299BB34955D936EA93 /* Pods_SwiftUISamples__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBD551036EF6F8005FFA03 /* Pods_SwiftUISamples__iOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +45,7 @@
 		9A417ADF28C9BA79004284B5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9A417AEE28C9C636004284B5 /* Pods_SwiftUISamples__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftUISamples__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A417AF228C9C654004284B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA9B2C328CF2E5D009C5FC7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		9AD6E4E028CA360C004CFE6D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		9AD6E4E428CA3640004CFE6D /* ThreeLibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLibView.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		9A417ACA28C9BA76004284B5 = {
 			isa = PBXGroup;
 			children = (
+				9AA9B2C028CF2E13009C5FC7 /* iOS */,
 				9A417ACF28C9BA76004284B5 /* Shared */,
 				9A417ADE28C9BA79004284B5 /* macOS */,
 				9A417AD828C9BA79004284B5 /* Products */,
@@ -112,9 +114,34 @@
 		9A417ADE28C9BA79004284B5 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				9AA9B2C228CF2E45009C5FC7 /* Controls */,
 				9A417ADF28C9BA79004284B5 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9AA9B2C028CF2E13009C5FC7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AA9B2C128CF2E24009C5FC7 /* Controls */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9AA9B2C128CF2E24009C5FC7 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6E4F128CA42BC004CFE6D /* WebView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		9AA9B2C228CF2E45009C5FC7 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9AA9B2C328CF2E5D009C5FC7 /* WebView.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 		9AD6E4DA28CA33C2004CFE6D /* 3rd */ = {
@@ -130,7 +157,6 @@
 			children = (
 				9AD6E4DE28CA34F7004CFE6D /* TabBarView.swift */,
 				9AD6E4E028CA360C004CFE6D /* ControlsView.swift */,
-				9AD6E4F128CA42BC004CFE6D /* WebView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -387,7 +413,7 @@
 				9AD6E4E228CA360C004CFE6D /* ControlsView.swift in Sources */,
 				9AD6E4E628CA3640004CFE6D /* ThreeLibView.swift in Sources */,
 				9AD6E4ED28CA36A8004CFE6D /* QandAView.swift in Sources */,
-				9AD6E4F328CA42BC004CFE6D /* WebView.swift in Sources */,
+				9AA9B2C428CF2E5D009C5FC7 /* WebView.swift in Sources */,
 				9AD6E4E328CA3615004CFE6D /* TabBarView.swift in Sources */,
 				9A417AE128C9BA79004284B5 /* SwiftUISamplesApp.swift in Sources */,
 			);
