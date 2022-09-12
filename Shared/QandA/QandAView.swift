@@ -13,7 +13,10 @@ struct QandAView: View {
             List {
                 NavigationLink(destination:ButtonInCell()){
                     Text("点击在Cell里的Button，怎样才能不触发整个Cell响应？")
-                    
+                }
+                
+                NavigationLink(destination:QuotesScreen()) {
+                    Text("MVVM & Async/Await项目结构")
                 }
             }
             .navigationTitle(Text("Q & A"))
