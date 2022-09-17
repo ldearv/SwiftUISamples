@@ -137,7 +137,7 @@ extension WebView: NSViewRepresentable {
     }
 
     public func updateNSView(_ nsView: WKWebView, context: NSViewRepresentableContext<WebView>) {
-        let request = URLRequest(url: url ?? URL(string: "https://www.jianshu.com/techareas/ios")!)
+        let request = URLRequest(url: url ?? URL(string: "https://qa.1r1g.com/sf/ask/4154357441/")!)
         webView.load(request)
     }
 }
@@ -145,6 +145,6 @@ extension WebView: NSViewRepresentable {
 
 struct WebView_Previews: PreviewProvider {
     static var previews: some View {
-        WebView(url: URL(string:"https://www.jianshu.com/techareas/ios"))
+        WebView(url: URL(string:"https://qa.1r1g.com/sf/ask/4154357441/"))
     }
 }
