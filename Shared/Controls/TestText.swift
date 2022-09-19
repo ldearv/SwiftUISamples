@@ -12,63 +12,76 @@ struct TestText: View {
         List {
             Section(content: {
                 Group {
-                    Text("Large title : 34")
+                    Text("系统预设 Large title : 34")
                         .font(.largeTitle)
-                    Text("title : 28")
+                    Text("系统预设 title : 28")
                         .font(.title)
-                    Text("title2 : 22")
+                    Text("系统预设 title2 : 22")
                         .font(.title2)
-                    Text("title3 : 20")
+                    Text("系统预设 title3 : 20")
                         .font(.title3)
-                    Text("headline : 17 : Semibold")
+                    Text("系统预设 headline : 17 : Semibold")
                         .font(.headline)
                     HStack {
-                        Text("body : 17")
+                        Text("系统预设 body : 17")
                             .font(.body)
                         Text("(default)")
                     }
-                    Text("callout : 16")
+                    Text("系统预设 callout : 16")
                         .font(.callout)
-                    Text("subheadline : 15")
+                    Text("系统预设 subheadline : 15")
                         .font(.subheadline)
-                    Text("footnote : 13")
+                    Text("系统预设 footnote : 13")
                         .font(.footnote)
-                    Text("caption : 12")
+                    Text("系统预设 caption : 12")
                         .font(.caption)
                 }
-                Text("caption2 : 11")
+                Text("系统预设 caption2 : 11")
                     .font(.caption2)
             }
-                    ,header:{Text("字号（Large (Default)）Weight:Regular")})
+                    ,header:{Text("字号（Large (Default)）Weight:Regular")
+            })
+            .textCase(nil)
+            
+            Section(header: Text("Font")) {
+                ForEach(11..<37, id: \.self) { size in
+                    Text("字号 Font.system(size: \(size))")
+                        .font(Font.system(size: CGFloat(size)))
+                }
+            }
+            .textCase(nil)
+            
             Section(content: {
                 Group {
-                    Text("Black")
+                    Text("字重 Black")
                         .fontWeight(.black)
-                    Text("Heavy")
+                    Text("字重 Heavy")
                         .fontWeight(.heavy)
-                    Text("Bold")
+                    Text("字重 Bold")
                         .fontWeight(.bold)
-                    Text("Semibold")
+                    Text("字重 Semibold")
                         .fontWeight(.semibold)
-                    Text("Medium")
+                    Text("字重 Medium")
                         .fontWeight(.medium)
                     HStack {
-                        Text("Regular")
+                        Text("字重 Regular")
                             .fontWeight(.regular)
                         Text("(Default)")
                     }
-                    Text("Light")
+                    Text("字重 Light")
                         .fontWeight(.light)
-                    Text("Thin")
+                    Text("字重 Thin")
                         .fontWeight(.thin)
-                    Text("ultraLight")
+                    Text("字重 UltraLight")
                         .fontWeight(.ultraLight)
                 }
-            }
-                    ,header:{Text("字重（fontWeight）")})
+            },header:{Text("字重（粗细）（fontWeight）")})
+            .textCase(nil)
             
         }
-        .navigationTitle(Text("Text"))
+        //.navigationBarHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitle(Text("Text"))
     }
     
 }

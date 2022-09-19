@@ -20,6 +20,7 @@ struct ControlsView: View {
                 }
             }
             .navigationTitle(Text("Controls"))
+            //.navigationBarHidden(true)
         }
     }
 }

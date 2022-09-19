@@ -50,6 +50,10 @@
 		9AD6E4EF28CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
 		9AD6E4F028CA3AA1004CFE6D /* ButtonInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */; };
 		9AD6E4F228CA42BC004CFE6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E4F128CA42BC004CFE6D /* WebView.swift */; };
+		9ADFCE5628D834E30028E389 /* SectionHeaderDontUppercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFCE5528D834E30028E389 /* SectionHeaderDontUppercase.swift */; };
+		9ADFCE5728D834E30028E389 /* SectionHeaderDontUppercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFCE5528D834E30028E389 /* SectionHeaderDontUppercase.swift */; };
+		9ADFCE5928D839CA0028E389 /* TestRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFCE5828D839CA0028E389 /* TestRatingView.swift */; };
+		9ADFCE5A28D839CA0028E389 /* TestRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFCE5828D839CA0028E389 /* TestRatingView.swift */; };
 		B2F63D299BB34955D936EA93 /* Pods_SwiftUISamples__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBD551036EF6F8005FFA03 /* Pods_SwiftUISamples__iOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +90,8 @@
 		9AD6E4EB28CA36A8004CFE6D /* QandAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QandAView.swift; sourceTree = "<group>"; };
 		9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInCell.swift; sourceTree = "<group>"; };
 		9AD6E4F128CA42BC004CFE6D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9ADFCE5528D834E30028E389 /* SectionHeaderDontUppercase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderDontUppercase.swift; sourceTree = "<group>"; };
+		9ADFCE5828D839CA0028E389 /* TestRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRatingView.swift; sourceTree = "<group>"; };
 		DC0A10D4502C4A60D68EEE8F /* Pods_SwiftUISamples__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUISamples__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -314,6 +320,8 @@
 				9AD6E4EE28CA3AA1004CFE6D /* ButtonInCell.swift */,
 				9A482C8E28D5B25900E4C9EE /* RatingView.swift */,
 				9A482C9128D5B9F900E4C9EE /* RatingResultView.swift */,
+				9ADFCE5828D839CA0028E389 /* TestRatingView.swift */,
+				9ADFCE5528D834E30028E389 /* SectionHeaderDontUppercase.swift */,
 			);
 			path = ControlsQ;
 			sourceTree = "<group>";
@@ -526,7 +534,9 @@
 				9A482C9228D5B9F900E4C9EE /* RatingResultView.swift in Sources */,
 				9AD6E4EF28CA3AA1004CFE6D /* ButtonInCell.swift in Sources */,
 				9AD6E4E128CA360C004CFE6D /* ControlsView.swift in Sources */,
+				9ADFCE5628D834E30028E389 /* SectionHeaderDontUppercase.swift in Sources */,
 				9AD6E4E828CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */,
+				9ADFCE5928D839CA0028E389 /* TestRatingView.swift in Sources */,
 				9A417AE228C9BA79004284B5 /* ContentView.swift in Sources */,
 				9AD6E4E528CA3640004CFE6D /* ThreeLibView.swift in Sources */,
 				9AA9B2E328CF82A7009C5FC7 /* LoadingView.swift in Sources */,
@@ -553,7 +563,9 @@
 				9A482C9328D5B9F900E4C9EE /* RatingResultView.swift in Sources */,
 				9AD6E4F028CA3AA1004CFE6D /* ButtonInCell.swift in Sources */,
 				9A417AE328C9BA79004284B5 /* ContentView.swift in Sources */,
+				9ADFCE5728D834E30028E389 /* SectionHeaderDontUppercase.swift in Sources */,
 				9AD6E4E928CA3656004CFE6D /* SwiftSyntaxView.swift in Sources */,
+				9ADFCE5A28D839CA0028E389 /* TestRatingView.swift in Sources */,
 				9AD6E4E228CA360C004CFE6D /* ControlsView.swift in Sources */,
 				9AD6E4E628CA3640004CFE6D /* ThreeLibView.swift in Sources */,
 				9AA9B2E428CF82A7009C5FC7 /* LoadingView.swift in Sources */,

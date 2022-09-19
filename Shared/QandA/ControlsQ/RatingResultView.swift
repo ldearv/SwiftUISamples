@@ -7,14 +7,13 @@
 // 作者:╰つ栺尖篴夢ゞ
 //版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
 //本文链接：https://blog.csdn.net/Forever_wj/article/details/121892092
-// 在原作者基础上增加了结果是小数的显示
+// 在原作者基础上增加了结果是一位小数的显示
 
 
 import SwiftUI
 
 struct RatingResultView: View {
-    @Binding var rating: Double
-    //var rating: Double
+    var model = RatingModel(rating: 0)
     var label = ""
     var maximumRating = 5
     
@@ -26,27 +25,26 @@ struct RatingResultView: View {
     var onColor = Color.yellow
     
     var canTap = true
+    var onTap : (Double) -> Void
     
     var body: some View {
         HStack {
             if label.isEmpty == false {
-                Text("label")
+                Text(label)
             }
 
             ForEach(1..<maximumRating + 1, id: \.self) { number in
                 image(for: number)
-                    .foregroundColor(rating < Double(number) ? rating > Double(number - 1) ? onColor : offColor : onColor)
+                    .foregroundColor(model.rating < Double(number) ? model.rating > Double(number - 1) ? onColor : offColor : onColor)
                     .onTapGesture {
-                        if canTap {
-                            rating = Double(number)
-                        }
+                        onTap(Double(number))
                     }
             }
         }
     }
     func image(for number: Int) -> Image {
-        if Double(number) > rating {
-            if Double(number - 1) < rating {
+        if Double(number) > model.rating {
+            if Double(number - 1) < model.rating {
                 return halfImage
             }
             return offImage
@@ -63,8 +61,7 @@ struct RatingResultView_Previews: PreviewProvider {
             VStack {
                 ForEach(0...25, id: \.self) {score in
                     HStack {
-                        Text("\(String(format:"%.1lf", Double(score) * 0.2))")
-                        RatingResultView(rating: .constant(Double(score) * 0.2))
+                        RatingResultView(model: RatingModel(rating: Double(score) * 0.2), label: (String(format:"%.1lf", Double(score) * 0.2)), canTap: false, onTap: {_ in })
                     }
                 }
             }

@@ -22,12 +22,21 @@ struct QandAView: View {
                     Text("MVVM & Async/Await项目结构")
                 }
                 
-                NavigationLink(destination:RatingView(rating: $rating)) {
+                NavigationLink(destination:TestRatingView()) {
                     Text("Star Rating评分组件")
                 }
                 
-                NavigationLink(destination:RatingResultView(rating: $ratingResult, canTap: false)) {
-                    Text("Star Rating评分结果组件")
+//                NavigationLink(destination:RatingResultView(rating: $ratingResult, canTap: false)) {
+//                    Text("Star Rating评分结果组件")
+//                }
+                
+                NavigationLink(destination: SectionHeaderDontUppercase()) {
+                    VStack {
+                        
+                        Text("怎样让Section的Header不自动大写?")
+                        Text("Is there a way to make the section headers display what I put in the Text, not change it to uppercase?")
+                            .font(.footnote)
+                    }
                 }
             }
             .navigationTitle(Text("Q & A"))
