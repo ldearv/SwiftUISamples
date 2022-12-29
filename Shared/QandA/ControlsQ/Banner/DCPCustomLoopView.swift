@@ -85,7 +85,8 @@ struct DCPCustomLoopView: View {
             .offset(x: dragOffset - currentOffset)
             .gesture(dragGesture)
             /// 绑定是否需要动画
-            .animation(isAnimation ? .spring() : .none)
+            //.animation(isAnimation ? .spring() : .none)
+            .animation(.spring(), value: isAnimation)
             .onChange(of: currentIndex, perform: { value in
                 
                 isAnimation = false

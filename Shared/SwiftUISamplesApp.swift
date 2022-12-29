@@ -17,6 +17,9 @@ struct SwiftUISamplesApp: App {
             //DCPCustomLoopView()
             //MemorizeView(viewModel: EmojiMemoryViewModel())
             //SwiftUIView()
+            //TestKeyboard()
+            //GestureView()
+            //TestText()
         }
     }
 }

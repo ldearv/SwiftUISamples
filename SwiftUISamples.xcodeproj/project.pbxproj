@@ -17,6 +17,9 @@
 		9A417AE428C9BA79004284B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A417AD228C9BA79004284B5 /* Assets.xcassets */; };
 		9A482C8F28D5B25900E4C9EE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A482C8E28D5B25900E4C9EE /* RatingView.swift */; };
 		9A482C9228D5B9F900E4C9EE /* RatingResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A482C9128D5B9F900E4C9EE /* RatingResultView.swift */; };
+		9A5C25FC295DA59300DCD368 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C25F9295DA59300DCD368 /* GestureView.swift */; };
+		9A5C25FD295DA59300DCD368 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C25FA295DA59300DCD368 /* NavigationBarModifier.swift */; };
+		9A5C25FE295DA59300DCD368 /* TestKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C25FB295DA59300DCD368 /* TestKeyboard.swift */; };
 		9AA9B2C728CF42FF009C5FC7 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9B2C628CF42FF009C5FC7 /* APIConstants.swift */; };
 		9AA9B2CD28CF6E12009C5FC7 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9B2CC28CF6E12009C5FC7 /* Quote.swift */; };
 		9AA9B2D128CF705C009C5FC7 /* QuotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9B2D028CF705C009C5FC7 /* QuotesScreen.swift */; };
@@ -64,6 +67,9 @@
 		9A417AF228C9C654004284B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A482C8E28D5B25900E4C9EE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		9A482C9128D5B9F900E4C9EE /* RatingResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingResultView.swift; sourceTree = "<group>"; };
+		9A5C25F9295DA59300DCD368 /* GestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		9A5C25FA295DA59300DCD368 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		9A5C25FB295DA59300DCD368 /* TestKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestKeyboard.swift; sourceTree = "<group>"; };
 		9AA9B2C328CF2E5D009C5FC7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9AA9B2C628CF42FF009C5FC7 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		9AA9B2CC28CF6E12009C5FC7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -138,6 +144,9 @@
 		9A417ACF28C9BA76004284B5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9A5C25F9295DA59300DCD368 /* GestureView.swift */,
+				9A5C25FA295DA59300DCD368 /* NavigationBarModifier.swift */,
+				9A5C25FB295DA59300DCD368 /* TestKeyboard.swift */,
 				9AFBE88D28E099120067A413 /* Games */,
 				9AD6E4DB28CA344F004CFE6D /* Controls */,
 				9AD6E4DA28CA33C2004CFE6D /* 3rd */,
@@ -417,7 +426,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					9A417AD628C9BA79004284B5 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -510,10 +519,12 @@
 				9A417AE228C9BA79004284B5 /* ContentView.swift in Sources */,
 				9A00EBEB28DF04B70035AA54 /* BannerCardView.swift in Sources */,
 				9AD6E4E528CA3640004CFE6D /* ThreeLibView.swift in Sources */,
+				9A5C25FC295DA59300DCD368 /* GestureView.swift in Sources */,
 				9AA9B2E328CF82A7009C5FC7 /* LoadingView.swift in Sources */,
 				9AD6E4EC28CA36A8004CFE6D /* QandAView.swift in Sources */,
 				9AFBE89028E099650067A413 /* MemorizeView.swift in Sources */,
 				9AA9B2D128CF705C009C5FC7 /* QuotesScreen.swift in Sources */,
+				9A5C25FD295DA59300DCD368 /* NavigationBarModifier.swift in Sources */,
 				9AA9B2C728CF42FF009C5FC7 /* APIConstants.swift in Sources */,
 				9A00EBED28DF0B9B0035AA54 /* DCPCustomLoopView.swift in Sources */,
 				9AD5341928F15B7900A541EE /* SwiftUIPullToRefresh.swift in Sources */,
@@ -524,6 +535,7 @@
 				9AD6E4F228CA42BC004CFE6D /* WebView.swift in Sources */,
 				9AD6E4DF28CA34F7004CFE6D /* TabBarView.swift in Sources */,
 				9A417AE028C9BA79004284B5 /* SwiftUISamplesApp.swift in Sources */,
+				9A5C25FE295DA59300DCD368 /* TestKeyboard.swift in Sources */,
 				9AD1054128D307A300A93F47 /* TestText.swift in Sources */,
 				9AD1053E28D2CF6A00A93F47 /* PickerExample.swift in Sources */,
 				9AA9B2DD28CF7CD0009C5FC7 /* QuotesViewModel.swift in Sources */,
@@ -572,6 +584,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -589,6 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -630,6 +644,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -641,6 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -665,7 +681,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -698,7 +714,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
