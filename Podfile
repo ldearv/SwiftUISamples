@@ -10,6 +10,7 @@ target 'SwiftUISamples (iOS)' do
   pod 'HandyJSON'
   pod 'SDWebImageSwiftUI'
   pod 'SDWebImage', :modular_headers => true, :inhibit_warnings => true
+  pod 'SwiftUI-Pull-To-Refresh', '~> 1.1.8'
 
 end
 

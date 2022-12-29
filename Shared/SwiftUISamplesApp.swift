@@ -12,6 +12,11 @@ struct SwiftUISamplesApp: App {
     var body: some Scene {
         WindowGroup {
             TabBarView()
+            //ContentView()
+            //BannerTestView()
+            //DCPCustomLoopView()
+            //MemorizeView(viewModel: EmojiMemoryViewModel())
+            //SwiftUIView()
         }
     }
 }

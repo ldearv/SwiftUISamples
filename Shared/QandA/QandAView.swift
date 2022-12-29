@@ -38,6 +38,11 @@ struct QandAView: View {
                             .font(.footnote)
                     }
                 }
+                
+                
+                NavigationLink(destination:CustomAlertView()) {
+                    Text("Custom Alert")
+                }
             }
             .navigationTitle(Text("Q & A"))
         }
